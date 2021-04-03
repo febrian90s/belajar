@@ -20,7 +20,18 @@ class HalamanSatu extends StatelessWidget{
         ],
       ),
       body: new Container(
-        child: new Center (child: new Text ('LOGIN')),
+        child: new Center(child : new Text ('LOGIN')),
+        /*child: new Column (
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children : <Widget> [
+            new Card(
+              child: new Column(
+                children :<Widget> [
+                  new Icon(Icons.search, size: 30.0, color: Colors.black),
+                new Text("Search", style: new TextStyle (fontSize: 10.0) ,)
+                ]
+              ) )
+        ]),*/
       ),
     );
   }
