@@ -13,7 +13,7 @@ class HalamanSatu extends StatelessWidget{
       appBar : new AppBar(
         backgroundColor: Colors.green[200],
         leading : new Icon(Icons.home),
-        title : new Text ('Klik Tani'),
+        title : new Center(child : new Text ('Klik Tani')),
         actions: <Widget>[
           new Icon(Icons.search)
         ],
