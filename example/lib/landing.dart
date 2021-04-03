@@ -11,7 +11,12 @@ class HalamanSatu extends StatelessWidget{
   Widget build(BuildContext context){
     return new Scaffold(
       appBar : new AppBar(
+        backgroundColor: Colors.green[200],
         leading : new Icon(Icons.home),
+        title : new Text ('Klik Tani'),
+        actions: <Widget>[
+          new Icon(Icons.search)
+        ],
       ),
     );
   }
