@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MyApp());
 }
-
 class MyApp extends StatelessWidget {
   
   @override
@@ -50,6 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
           new Icon(Icons.search)
         ],
         
+        
         title: Text(widget.title),
       ),
       body: Center(
@@ -76,3 +76,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
